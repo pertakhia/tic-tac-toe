@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #87a8d81a;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+    width: 100px;
+    height: 30px;
+    border: 2px dotted rgb(108, 25, 187);
+    background: inherit;
+    margin-top: 5px;
+    cursor: url(image/mik.png), auto;
+}
+.btn:focus {
+    outline: none;
+    background: lightblue;
+    border: 3px dotted rgb(132, 22, 235);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnnum:focus {
+    outline: none;
 }
