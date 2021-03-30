@@ -12,12 +12,13 @@ body {
 }
 
 .btn {
-    width: 100px;
-    height: 30px;
+    width: 140px;
+    height: 35px;
     border: 2px dotted rgb(108, 25, 187);
     background: inherit;
-    margin-top: 5px;
-    cursor: url(image/mik.png), auto;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: monospace;
 }
 .btn:focus {
     outline: none;
@@ -27,4 +28,79 @@ body {
 
 .btnnum:focus {
     outline: none;
+}
+
+.active {
+    background: lightblue;
+    font-size: 35px;
+}
+
+.center {
+      display: flex;
+      justify-content: center;
+}
+.center p {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: monospace;
+    padding: 0 5px;
+}
+/* active when win or draw */
+.win {
+    background: #ff5416e5;
+    border: 2px dotted darkblue;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+.draw {
+    background: rgb(95 255 103);
+}
+
+.btnsquare {
+    background: lightblue;
+    border: 2px dotted darkblue;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* home css  */
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-section > ul {
+    margin-top:20px;
+    
+}
+.list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.home-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+.hom-box-h1 {
+    font-size: 52px;
+    margin-bottom: 50px;
+}
+
+.home-a {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
 }
